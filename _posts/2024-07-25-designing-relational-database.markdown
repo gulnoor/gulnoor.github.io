@@ -29,17 +29,17 @@ natural join vs cross product: enforces equality of shared attributes
 
 theta join: used in most dbms, natural join with a projection (column selection) -->
 
-### Designing Relational Database
+# Designing Relational Database
 
-Design Anomalies:
+## Design Anomalies:
 
 1. Redundancy: capturing the fact that orderID 123 is related to user peppa multiple times 
 2. Update anomaly: if wanna update item name, will have to update everywhere
 3. deletion anomaly: if wanna delete pizza from menu , and a user has only one order with one item only, then user’s personal info will also be deleted from database
 
-![Untitled](/assets/images/Untitled-2024-07-20-2149.svg)
+![Untitled](/assets/images/Untitled-2024-07-20-2149.png)
 
-### Design by decomposition
+## Design by decomposition:
 
 goal is to break table into tables that satisfy rules of normal form
 
@@ -47,7 +47,7 @@ properties = functional dependency + multivalued dependencies (come from real wo
 
 identify dependencies in mega table, then break into small tables 
 
-![Untitled](/assets//images/Untitled2-2024-07-20-2149.svg)
+![Untitled](/assets//images/Untitled2-2024-07-20-2149.png)
 
 functional dependency: 
 
