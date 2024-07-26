@@ -3,6 +3,7 @@ layout: post
 title:  "Designing Relational Database"
 date:   2024-07-25
 categories: Databases
+image: /assets/images/dbdesign.svg
 ---
 <!-- advantages of relational model: can query with high level language, efficient implementations
 having multiple tables(relations) avoids redundancy
