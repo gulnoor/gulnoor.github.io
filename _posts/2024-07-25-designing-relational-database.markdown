@@ -4,6 +4,7 @@ title: "Designing Relational Database"
 date: 2024-07-25
 categories: Databases
 image: /assets/images/dbdesign.svg
+status: pinned 
 ---
 
 Theoretically, there can be tens or even hundreds of ways to organize your SQL database into multiple relations(tables). So how do we choose an efficient design? One way is to use "design by decomposition". Here's how it works:
