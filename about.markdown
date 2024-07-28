@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+icon: /assets/theme-assets/theme-icons/aboutme.svg
 ---
 
 Documenting my journey towards a self-tought education in Computer Science!
