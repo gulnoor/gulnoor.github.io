@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 home_icon: /assets/theme-assets/theme-icons/home2.svg
 github_username: gulnoor
 instagram_username: goolnur
-
+tagline: when I'm finished designing this page, I'll start writing... :p
 # Build settings
 theme: jekyll-theme-handwritten
 plugins:
